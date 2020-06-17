@@ -1,0 +1,8 @@
+footer {
+  grid-area: 3/1/4/3;
+  background-color: #2274A5
+}
+
+footer p {
+  color: #E6AF2E;
+  text-align: center;
