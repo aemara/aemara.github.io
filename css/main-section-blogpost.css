@@ -1,4 +1,149 @@
-@media (max-width: 855px) {
+@media (max-width: 649px)
+{
+  body {
+    background-color: white;
+    margin: 0px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  #container {
+    display: grid;
+    grid-template-rows: 260px 1fr 100px;
+    grid-auto-columns: 1fr;
+  }
+
+  #post-page {
+    grid-area: 2/1/3/3;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #post-page article figure {
+    margin-left: 0;
+  }
+
+  #post-page article figure img {
+    width: 100%;
+  }
+
+  #post-page article header h2 {
+    margin: 0;
+    font-size: 40px;
+  }
+
+  #post-page article header span {
+    text-transform: uppercase;
+    color: #632B30;
+  }
+
+  #post-page article {
+    width: 80%;
+    margin: auto;
+  }
+
+  article p {
+    text-align: justify;
+    margin-right: 20px;
+  }
+
+  article p span {
+    font-weight: bold;
+  }
+
+  article blockquote {
+    font-style: italic;
+    color: #2274A5;
+    z-index: 1;
+    position: relative;
+  }
+
+  blockquote::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    z-index: -1;
+    background: url(../images/quotes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  #side #author {
+    border: 1px solid #eeedea;
+    background-color: #fff;
+    margin-bottom: 20px;
+    background-color: rgb(231, 235, 144, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  #side #author img {
+    width: 50%;
+    height: 30%;
+  }
+
+  #side #author h5 {
+    margin-bottom: 0;
+  }
+
+  #side #author p {
+    text-align: justify;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #side h4 {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  #side #social {
+    border: 1px solid #eeedea;
+    background-color: #fff;
+    margin-bottom: 20px;
+    background-color: rgb(231, 235, 144, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+  }
+
+  #side #social ul {
+    list-style-type: none;
+
+  }
+
+  #side #social ul li {
+    margin-bottom: 5px;
+  }
+}
+
+
+@media (min-width: 650px) and (max-width: 855px) {
+
+  /*Styles for mobile*/
   body {
     background-color: white;
     margin: 0px;
@@ -111,7 +256,7 @@
   #side h4 {
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     font-style: italic;
     letter-spacing: 0.1em;
     text-align: center;
@@ -144,7 +289,7 @@
   p {
     font-size: 18px;
   }
-  
+
   #container {
     display: grid;
     grid-template-rows: 200px 1fr 100px;
