@@ -1,3 +1,19 @@
 @import "navigation.css";
-@import "main-section-blogpost.css";
 @import "footer.css";
+@import "main-section-blogpost.css";
+@import "main-section-home.css";
+
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 260px 1fr 100px;
+  grid-auto-columns: 1fr;
+}
