@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 50%;
+}
+
+.about-me h2 {
+    margin: 0;
+}
+
+.photo {
+    width: 30%;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+
+.project-preview {
+    width: 80%;
+}
