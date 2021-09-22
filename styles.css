@@ -18,8 +18,12 @@ main {
     width: 50%;
 }
 
+.logo {
+    margin-top: 10px;
+}
+
 .about-me h2 {
-    margin-bottom:0;
+    margin: 0;
 }
 
 .photo {
